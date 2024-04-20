@@ -7,6 +7,9 @@
 
 #include "BFS_head.h"
 
+int pop();
+bool push(int value);
+void print_list();
 bool do_BFS_Search(graph *g, int from, int to, bool *visited);
 void shortest_path(graph *g , int from, int to);
 bool * init_visited(graph *g, bool *visited_list);

@@ -11,5 +11,6 @@ int main() {
     add_edge(g, 2, 4);
     add_edge(g, 0, 4);
     shortest_path(g, 0, 3);
+    print_list();
     return 0;
 }
