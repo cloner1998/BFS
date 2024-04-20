@@ -3,12 +3,6 @@
 #include <stdio.h>
 
 
-typedef struct graph_t {
-    int num_nodes;
-    bool **edges;
-    bool **visited;
-}graph;
-
 graph *creat_graph(int num_nodes){
     graph *g = malloc(sizeof (graph));
     g->num_nodes = num_nodes;
