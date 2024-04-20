@@ -61,6 +61,12 @@ build CMakeFiles/BFS.dir/BFS_lib.c.obj: C_COMPILER__BFS_Debug C$:/Users/LENOVO/C
   OBJECT_DIR = CMakeFiles\BFS.dir
   OBJECT_FILE_DIR = CMakeFiles\BFS.dir
 
+build CMakeFiles/BFS.dir/BFS_search.c.obj: C_COMPILER__BFS_Debug C$:/Users/LENOVO/CLionProjects/BFS/BFS_search.c || cmake_object_order_depends_target_BFS
+  DEP_FILE = CMakeFiles\BFS.dir\BFS_search.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\BFS.dir
+  OBJECT_FILE_DIR = CMakeFiles\BFS.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target BFS
@@ -69,7 +75,7 @@ build CMakeFiles/BFS.dir/BFS_lib.c.obj: C_COMPILER__BFS_Debug C$:/Users/LENOVO/C
 #############################################
 # Link the executable BFS.exe
 
-build BFS.exe: C_EXECUTABLE_LINKER__BFS_Debug CMakeFiles/BFS.dir/main.c.obj CMakeFiles/BFS.dir/BFS_lib.c.obj
+build BFS.exe: C_EXECUTABLE_LINKER__BFS_Debug CMakeFiles/BFS.dir/main.c.obj CMakeFiles/BFS.dir/BFS_lib.c.obj CMakeFiles/BFS.dir/BFS_search.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\BFS.dir

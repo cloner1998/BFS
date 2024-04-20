@@ -7,7 +7,11 @@
 #ifndef BFS_BFS_HEAD_H
 #define BFS_BFS_HEAD_H
 
-typedef struct graph_t graph;
+typedef struct graph_t {
+    int num_nodes;
+    bool **edges;
+    bool **visited;
+}graph;
 
 graph *creat_graph(int value);
 void destroy_graph(graph *g);
