@@ -47,8 +47,9 @@ bool do_BFS_Search(graph *g, int from, int to, bool *visited){
         }
         found = do_BFS_Search(g, i, to, visited);
         if(found){
-            push(i);
-            printf("(push)stack level %d(mine?), my top = %d\n", i, top);
+            //push(i);
+            //printf("(push)stack level %d(mine?), my top = %d\n", i, top);
+            // here it does not need to push sth just need to break
             break;
         }
 
